@@ -6,7 +6,6 @@ import java.awt.*;
 
 public class Application {
     public static void main(String[] args) {
-        //JComboBox<String> estado = new JComboBox<> (new String[] {"Soltero", "Casado"});
 
         System.out.println("Hello World :) !!");
         //Ventana
@@ -56,8 +55,14 @@ public class Application {
         femenino_r.setBounds(200,95,100,30);
         gui.add(femenino_r);
 
+        //JComboBox<String> estado = new JComboBox<> (new String[] {"Soltero", "Casado"});
+
+        JComboBox <String> estado_civil_c = new JComboBox<>(new String[] {"Soltero", "Casado"});
+        estado_civil_c.setBounds(70, 130,80,30);
+        gui.add(estado_civil_c);
+
         JButton guardar_b = new JButton("Guardar");
-        guardar_b.setBounds(60,200,100,30);
+        guardar_b.setBounds(100,200,100,30);
         guardar_b.setBackground(Color.GREEN);
         gui.add(guardar_b);
 
