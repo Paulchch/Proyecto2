@@ -58,7 +58,7 @@ public class Application {
         //JComboBox<String> estado = new JComboBox<> (new String[] {"Soltero", "Casado"});
 
         JComboBox <String> estado_civil_c = new JComboBox<>(new String[] {"Soltero", "Casado"});
-        estado_civil_c.setBounds(70, 130,80,30);
+        estado_civil_c.setBounds(100, 130,80,30);
         gui.add(estado_civil_c);
 
         JButton guardar_b = new JButton("Guardar");
